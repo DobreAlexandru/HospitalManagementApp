@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="741.0" prefWidth="1330.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="pane" layoutY="-2.0" prefHeight="103.0" prefWidth="1330.0">
+         <children>
+            <Label layoutX="14.0" layoutY="15.0" prefHeight="71.0" prefWidth="400.0" text="Program Personal" textFill="#13276f">
+               <font>
+                  <Font name="Book Antiqua Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <AnchorPane layoutX="259.0" layoutY="107.0" prefHeight="617.0" prefWidth="1067.0">
+         <children>
+            <TableView fx:id="tbl_personal" layoutX="5.0" layoutY="4.0" prefHeight="608.0" prefWidth="1057.0">
+               <columns>
+                  <TableColumn fx:id="colpersonal_nume" prefWidth="128.0" text="Nume" />
+                  <TableColumn fx:id="colpersonal_prenume" prefWidth="136.0" text="Prenume" />
+                  <TableColumn fx:id="colpersonal_sex" prefWidth="65.0" text="Sex" />
+                  <TableColumn fx:id="colpersonal_telefon" prefWidth="82.0" text="Telefon" />
+                  <TableColumn fx:id="colpersonal_email" prefWidth="208.0" text="Email" />
+                  <TableColumn fx:id="colpersonal_specializare" prefWidth="137.0" text="Specializare" />
+                  <TableColumn fx:id="colpersonal_adresa" prefWidth="165.0" text="Adresa" />
+                  <TableColumn fx:id="colpersonal_program" prefWidth="130.0" text="Program" />
+                  <TableColumn fx:id="colpersonal_id" minWidth="0.0" prefWidth="5.0" text="ID" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="108.0" prefHeight="617.0" prefWidth="240.0">
+         <children>
+            <TextField fx:id="txtpersonal_nume" layoutX="16.0" layoutY="50.0" prefHeight="25.0" prefWidth="228.0" promptText="Nume" />
+            <TextField fx:id="txtpersonal_prenume" layoutX="16.0" layoutY="118.0" prefHeight="25.0" prefWidth="228.0" promptText="Prenume" />
+            <TextField fx:id="txtpersonal_telefon" layoutX="16.0" layoutY="258.0" prefHeight="25.0" prefWidth="228.0" promptText="Telefon" />
+            <TextField fx:id="txtpersonal_sex" layoutX="16.0" layoutY="186.0" prefHeight="25.0" prefWidth="228.0" promptText="Sex" />
+            <TextField fx:id="txtpersonal_adresa" layoutX="14.0" layoutY="466.0" prefHeight="25.0" prefWidth="228.0" promptText="Adresa" />
+            <TextField fx:id="txtpersonal_email" layoutX="16.0" layoutY="326.0" prefHeight="25.0" prefWidth="228.0" promptText="Email" />
+            <TextField fx:id="txtpersonal_specializare" layoutX="16.0" layoutY="398.0" prefHeight="25.0" prefWidth="228.0" promptText="Specializare" />
+            <TextField fx:id="txtpersonal_program" layoutX="13.0" layoutY="531.0" prefHeight="25.0" prefWidth="228.0" promptText="Program" />
+            <Button fx:id="btn_save" layoutX="14.0" layoutY="569.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Salveaza" />
+            <Button fx:id="btn_add_new" layoutX="84.0" layoutY="569.0" mnemonicParsing="false" text="Nou" />
+            <Button fx:id="btn_edit" layoutX="127.0" layoutY="569.0" mnemonicParsing="false" text="Modifica" />
+            <Button fx:id="btn_delete" layoutX="193.0" layoutY="569.0" mnemonicParsing="false" text="Sterge" />
+            <Button fx:id="btn_back" layoutX="25.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Inapoi" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

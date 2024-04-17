@@ -1,0 +1,16 @@
+
+#pane2{
+	-fx-background-color: #0174CF;
+}
+
+#btn_login{
+	-fx-background-color: #005f69;
+}
+
+#btn_login:hover{
+	-fx-background-color: #003153;
+}
+
+#panelog{
+	-fx-background-color: #0174CF;
+}

@@ -1,0 +1,39 @@
+#pane{
+	-fx-background-color: #72A0C1;
+	
+}
+
+#btn_save{
+	-fx-background-color: #0b824e;
+}
+
+#btn_edit{
+	-fx-background-color: orange;
+}
+
+#btn_delete{
+	-fx-background-color: red;
+}
+
+#btn_add_new{
+	-fx-background-color: #0b824e;
+}
+
+.button{
+	-fx-opacity: 0.9;
+	-fx-text-fill: white;
+}
+
+.button:hover{
+	-fx-opacity: 1;
+}
+
+#btn_position{
+	-fx-text-fill: black;
+}
+
+#btn_back{
+	-fx-background-color: brown;
+}
+
+
